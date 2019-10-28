@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HomeWork_3/information</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style_information.css">
+</head>
+
+<Body>
+    <form action="#">
+        <fieldset>
+            <legend>Информация</legend>
+            <div>
+                <p>
+                    <label for="fam">Фамилия</label>
+                    <input type="text" id="fam">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name">
+                    <label for="father">Отчество</label>
+                    <input type="text" id="father">
+                </p>
+
+                <p>
+                    Пол
+                    <label> <input name="qwe" type="radio" checked>Мужской</label>
+                    <label> <input name="qwe" type="radio" checked>Женский</label>
+                </p>
+
+                <p id="date">
+                    <label for="d_birth">Дата рождения</label>
+                    <input type="date">
+                </p>
+
+                <p id="date">
+                    <label for="yeasr">Полных лет</label>
+                    <input type="number" placeholder="Введте полный возраст" min="1">
+                </p>
+
+                <p>
+                    Паспорт
+                    <br>
+                    <label for="ser">Серия: </label>
+                    <input type="text" id="ser">
+
+                    <label for="nom">Номер: </label>
+                    <input type="text" id="nom">
+                </p>
+
+                <p>
+                    Вредные привычки:
+                    <label> <input name="sig" type="checkbox">Курение</label>
+                    <label> <input name="alco" type="checkbox">Алкоголь</label>
+                    <label> <input name="narc" type="checkbox">Наркозависимость</label>
+
+                </p>
+                <p>другие
+                    <br>
+                    <textarea name="t_area" cols="70" rows="5"> </textarea>
+                </p>
+
+                <p>
+                    Дополнительная информация о себе:
+                    <textarea name="t_area_dop" id="dop_info" rows="7"></textarea>
+                </p>
+                <button>Ok</button>
+            </div>
+        </fieldset>
+    </form>
+</Body>
+
+</html>

@@ -1,0 +1,17 @@
+#navigation {
+    list-style-type: none;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    width: 300px;
+}
+
+body {}

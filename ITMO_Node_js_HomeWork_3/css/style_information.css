@@ -1,0 +1,15 @@
+#date {
+    display: inline;
+}
+
+div p {
+    font-family: cursive;
+}
+
+textarea {
+    resize: none;
+}
+
+#dop_info {
+    width: 100%;
+}

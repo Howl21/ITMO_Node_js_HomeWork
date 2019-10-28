@@ -1,0 +1,33 @@
+body {
+    background-image: url(../image/fon.jpg);
+    background-attachment: fixed;
+}
+
+.zag {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: large;
+    display: block;
+    text-align: center;
+}
+
+.author_name {
+    color: maroon;
+}
+
+#str {
+    display: inline;
+}
+
+.text_st {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+.full_st {
+    color: #fff;
+    text-decoration: none;
+    user-select: none;
+    background: gray;
+    padding: 9px 5px;
+}
