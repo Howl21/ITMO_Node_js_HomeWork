@@ -3,29 +3,51 @@ body {
     margin: 0;
 }
 
-container div {
-    box-sizing: border-box;
-}
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.margin-bottom {
+.margin-bottom11 {
     margin-bottom: 15px;
 }
 
 .vlog {
     background: lawngreen;
-    margin: 3px;
-    /* width: calc(100%- 10px);
-    height: calc(50% - 10px);
-    */
-    width: calc(100%- 10px);
-    height: calc(100% - 10px);
+    margin: 5px;
+    height: calc(15vw);
 }
 
-.clear {
-    clear: both;
+.lastCol {
+    height: calc(45vw + 20px);
+    margin: 5px;
+}
+
+.slaider {
+    position: relative;
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+.slaider>li {
+    display: none;
+}
+
+.slaider>li.active {
+    display: block;
+}
+
+.lastCol img {
+    position: absolute;
+    height: calc(45vw + 20px);
+    z-index: 1;
+}
+
+.slaider-text {
+    top: 55px;
+    left: 66px;
+    position: absolute;
+    color: orangered;
+    z-index: 2;
 }
