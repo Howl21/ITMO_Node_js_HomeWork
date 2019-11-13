@@ -11,9 +11,16 @@ body {
     display: none;
 }
 
+li {
+    display: inline;
+    list-style-type: none;
+}
+
 li:hover>.submenu {
     display: block;
 }
+
+.ul-container {}
 
 .form:target {
     display: block;
